@@ -1,0 +1,21 @@
+{
+  "name": "hw-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electromon ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^2.0.6",
+    "electron-builder": "^20.26.1",
+    "electron-rebuild": "^1.8.2"
+  },
+  "dependencies": {
+    "path": "^0.12.7",
+    "pdffiller": "0.0.10"
+  }
+}
